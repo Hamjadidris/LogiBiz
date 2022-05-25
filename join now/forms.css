@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ body{
+     background-color: grey ;
+    margin: 0;
+} 
+
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 15px 10px;
+    border-bottom: 2px solid #0e4f1f;
+
+}
+ .main-header > div{
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+.brand-logo{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-size: 32px;
+    font-weight:bold ;
+} 
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 150px);
+}
+.main-nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.main-nav-link{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+    
+}
+.main-nav-link a{
+    text-decoration: none;
+}
+
+.main-nav-link-cta a{
+    padding:  5px 10px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    background-color: rgb(173, 4, 4);
+    color: white;
+}
+
+.main-nav-link a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+
+
+}
+.main-nav-link-cta>a:hover{
+    background-color: rgb(207, 207, 207);
+    color: red;
+    border: 2px solid white ;
+}    
+
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+main h1{
+    font-size: 3rem;
+    color: rgb(148, 52, 52);
+}
+form{
+    width: 30%;
+    text-align: left;
+}
+.select{
+    width: 100%;
+    border: 2px solid #0e4f1f;
+    background-color: rgba(4, 100, 4, 0.221);
+}
+form input{
+    width: 100%;
+    background-color: rgba(173, 4, 4,0.4);
+}
+
+button{
+    color: #ffff;
+    padding: 10px;
+    background-color: #0e4f1f;
+    border-radius: 10px;
+    border-style: none;
+}
+.checkbox{
+    width: fit-content;
+    margin: 20px 0;
+}
